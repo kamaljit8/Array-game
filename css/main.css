@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+/* Container Styles */
+/* // kamaljit kaur 200537971 */
+
+body {
+    padding:0px;
+    margin:0px;
+    background-color: #E8F6EF;
+}
+
+.content{
+  margin:50px 100px;
+}
+
+.con{
+  justify-content: center;
+
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.in2-con{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.con_in {
+  background-color: #FFE194;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  height: 120px;
+  width: 45%;
+  padding: 10px;
+  margin: 50px;
+  transition: transform 0.3s ease;
+}
+
+.con_in:hover {
+  transform: scale(1.1);
+}
+
+  
+  /* Button Styles */
+  .con_in button {
+    margin-left: 60px;
+    float:right;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
